@@ -1,26 +1,32 @@
 import React from "react";
+import "./Nav.css";
+import logo from "../assets/Asset16@4x.png";
 
 function Nav() {
   return (
-    <>
-      <ul>
+    <div className="nav_component">
+      <img src={logo}></img>
+      <ul className="nav_links">
         <li>
-          <a href=""></a>
+          <a href="">Home</a>
         </li>
         <li>
-          <a href=""></a>
+          <a href="">About</a>
         </li>
         <li>
-          <a href=""></a>
+          <a href="">Menu</a>
         </li>
         <li>
-          <a href=""></a>
+          <a href="">Reservations</a>
         </li>
         <li>
-          <a href=""></a>
+          <a href="">Order Online</a>
+        </li>
+        <li>
+          <a href="">Login</a>
         </li>
       </ul>
-    </>
+    </div>
   );
 }
 

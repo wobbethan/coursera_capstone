@@ -1,0 +1,10 @@
+.main_topelement {
+  background-color: greenyellow;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-around;
+  max-height: 300px;
+}
+.main_topelement img {
+  object-fit: contain;
+}

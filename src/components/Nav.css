@@ -1,0 +1,26 @@
+.nav_component {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  max-height: 10 0px;
+}
+.nav_links {
+  padding: 20px;
+  list-style: none;
+  display: inline-flex;
+  gap: 10px;
+}
+.nav_links a {
+  text-decoration: none;
+  color: black;
+}
+.nav_links a:hover {
+  text-decoration: underline;
+}
+.nav_component > img {
+  height: 100px;
+  width: 300px;
+  padding: 20px;
+}

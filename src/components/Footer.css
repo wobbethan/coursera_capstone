@@ -1,0 +1,25 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.first_col img {
+  height: 200px;
+  margin-top: 20px;
+}
+footer ul {
+  list-style: none;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+footer p {
+  color: black;
+}
+footer div {
+  align-items: center;
+}

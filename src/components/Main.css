@@ -1,10 +1,45 @@
-.main_topelement {
-  background-color: greenyellow;
-  display: inline-flex;
-  width: 100%;
+.main_component {
+  background-color: #495e57;
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  max-height: 300px;
+  align-items: center;
 }
-.main_topelement img {
-  object-fit: contain;
+.main_image img {
+  max-height: 500px;
+  justify-self: center;
+  width: auto;
+}
+.main_image {
+  margin: 1%;
+}
+.main_intro {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+.main_intro button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f4ce14;
+  cursor: pointer;
+}
+.main_intro button:hover {
+  color: white;
+}
+.main_intro > h1,
+.main_intro > h2,
+.main_intro > p {
+  color: white;
+  font-size: 3rem;
+}
+.main_intro > p {
+  padding: 10%;
+}
+
+.main_intro > p {
+  font-size: 3rem;
 }
